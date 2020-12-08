@@ -1,7 +1,6 @@
-import 'package:flutter/foundation.dart';
-
-import 'util.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:meta/meta.dart';
+import 'util.dart';
 
 class GeoFirePoint {
   static Util _util = Util();
